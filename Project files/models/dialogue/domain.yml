@@ -1,0 +1,51 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_meeting_time
+- utter_greet
+- utter_ask_location
+- action_weather
+- actions.ActionShowMeeting
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- time
+- location
+- meeting
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- schedule_meeting:
+    use_entities: true
+- search_for_meeting:
+    use_entities: true
+- inform:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  meeting:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: In what location?
+  utter_ask_meeting_time:
+  - text: What time would you like me to schedule your meeting?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello, how can I help you?
+  - text: Hi, I am here to help.

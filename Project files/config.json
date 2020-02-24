@@ -1,0 +1,11 @@
+{
+    "pipeline" : [ "nlp_spacy",
+                   "tokenizer_spacy",
+                    "ner_crf",
+                    "ner_spacy",
+                    "intent_featurizer_spacy",
+                    "intent_classifier_sklearn"],
+    "language" : "en",
+    "path" : "./models/nlu",
+    "data" : "./data/training_data.json"
+}
