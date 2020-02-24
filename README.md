@@ -6,20 +6,20 @@ To run this bot you have to follow 4 steps.
 ### 1) Rasa installation
 
 You must install the latest version of Rasa Core. It is highly recommended that you create a virtual environment and then proceed with the installations
-#### Creating virtual enviroment
+#### 1 -Creating virtual enviroment
 conda create –Rayan python=3.6
 
-#### Activating the new environment to use it
+#### 2 -Activating the new environment to use it
 WINDOWS: activate bot
 LINUX, macOS: source activate bot
 
-#### Installing the latest Rasa stack and NLU
+#### 3 -Installing the latest Rasa stack and NLU
 python -m pip install rasa_nlu[spacy] (https://rasa.com/docs/nlu/installation/)
 
-#### Rasa Core
+#### 4 -Rasa Core
 python -m pip install -U rasa_core (https://rasa.com/docs/core/installation/)
 
-#### Language model
+#### 5 -Language model
 python -m spacy download en_core_web_md python -m spacy link en_core_web_md en --force;
 
 ##### Note: The Project file contains all the files needed and requirement.text with all the dependencies listed in them.
