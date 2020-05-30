@@ -129,6 +129,6 @@ wcwidth==0.1.7
 WeatherAPIXU==0.0.2
 webexteamssdk==1.1.1
 websocket-client==0.54.0
-Werkzeug==0.15.2
+Werkzeug==0.15.3
 wrapt==1.10.11
 zope.interface==4.6.0
