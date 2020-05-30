@@ -1,7 +1,7 @@
 # Final-Year-Project-ChatBot
 ## How to run 
 ------------------
-11.3
+
 
 To run this bot you have to follow 4 steps.
 ### 1) Rasa installation
