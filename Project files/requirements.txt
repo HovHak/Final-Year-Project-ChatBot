@@ -6,7 +6,7 @@ asn1crypto==0.24.0
 astor==0.7.1
 attrs==19.1.0
 Automat==0.7.0
-bleach==1.5.0
+bleach==3.3.0
 blis==0.2.4
 boto3==1.9.128
 botocore==1.12.128
