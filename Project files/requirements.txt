@@ -10,7 +10,7 @@ bleach==1.5.0
 blis==0.2.4
 boto3==1.9.128
 botocore==1.12.128
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.2
 chardet==3.0.4
 Click==7.0
